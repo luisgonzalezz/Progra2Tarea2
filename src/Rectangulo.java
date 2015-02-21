@@ -32,7 +32,7 @@ public class Rectangulo {
 		return (base*altura);
 	}
 	
-	int getPerimetro()  //Obtiene el perimetro multiplicando base x altura y luego x 2
+	int getPerimetro()  //Obtiene el perimetro sumando base + altura y luego x 2
 	{
 		return ((base+altura)*2);
 	}
